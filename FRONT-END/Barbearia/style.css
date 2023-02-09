@@ -230,12 +230,17 @@ td, th {
 }
 
 .itens::before {
-    content: "🟊";
+    content: "★";
 }
 
 .imagembeneficios {
     width: 60%;
-    opacity: 0.7;
+    opacity: 1;
+}
+
+.imagembeneficios:hover {
+    transition: 400ms;
+    opacity: 0.3;
 }
 
 .video {
