@@ -95,9 +95,6 @@ footer {
     padding: 20px 0 0;
 }
 
-main {
-    
-}
 
 form {
     margin: 40px 0;
@@ -161,6 +158,7 @@ td, th {
 .titulo-principal {
     text-align: center;
     font-size: 2em;
+    font-weight: bold;
     margin: 0 0 1em;
     clear: left;
 }
@@ -236,6 +234,8 @@ td, th {
 .imagembeneficios {
     width: 60%;
     opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000;
 }
 
 .imagembeneficios:hover {
